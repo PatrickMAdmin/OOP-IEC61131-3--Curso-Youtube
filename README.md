@@ -19,6 +19,8 @@
 ### 📚 👉 [Proyecto TwinCAT Patrones de Diseño](https://github.com/runtimevic/OOP-IEC61131-3--Curso-Youtube/tree/master/TC3_Design_Patterns)
 ### 📚 👉 [Ficheros PLCOpen XML Patrones de Diseño](https://github.com/runtimevic/OOP-IEC61131-3--Curso-Youtube/tree/master/Ficheros_PLCOpen_XML_Design_Patterns)
 ### 📚 👉 [Proyectos *.tpzip TwinCAT Patrones de Diseño](https://github.com/runtimevic/OOP-IEC61131-3--Curso-Youtube/tree/master/TC3_Design_Patterns_projects_tpzip)
+### 📚 👉 [Proyecto Librerias creadas](https://github.com/runtimevic/OOP-IEC61131-3--Curso-Youtube/tree/master/Library)
+
 ***
 ### Lista de Videos de Youtube:
 - :link: [Lista Completa de Videos Curso:](https://youtube.com/playlist?list=PLEfi_hUmmSjFpfdJ6yw3B9yj7dWHYkHmQ)
@@ -75,10 +77,13 @@
     - 🔗 [051 - OOP IEC 61131-3 PLC -- Patrones de Diseño - Estructural - Puente](https://youtu.be/dzARu7R4laQ)
     - 🔗 [052 - OOP IEC 61131-3 PLC -- Patrones de Diseño - Estructural - Compuesto](https://youtu.be/xQHbCdcauiI)
     - 🔗 [053 - OOP IEC 61131-3 PLC -- Patrones de Diseño - Estructural - Decorador](https://youtu.be/mqOeQEtnT5o)
-    - 🔗 [054 - OOP IEC 61131-3 PLC -- Patrones de Diseño - Estructural - Fachada]()
+    - 🔗 [054 - OOP IEC 61131-3 PLC -- Patrones de Diseño - Estructural - Fachada](https://youtu.be/CknuqL848Jo)
     - 🔗 [055 - OOP IEC 61131-3 PLC -- Patrones de Diseño - Estructural - Peso Ligero]()
     - 🔗 [056 - OOP IEC 61131-3 PLC -- Patrones de Diseño - Estructural - Proxy]()
-    - 🔗 [057 - OOP IEC 61131-3 PLC --  ]()
-    - 🔗 [058 - OOP IEC 61131-3 PLC --  ]()
+    - 🔗 [057 - OOP IEC 61131-3 PLC -- Librerias, Biblioteca - 1]()
+    - 🔗 [058 - OOP IEC 61131-3 PLC -- Librerias, Biblioteca - 2]()
+    - 🔗 [059 - OOP IEC 61131-3 PLC -- Librerias, Biblioteca - 3]()
+    - 🔗 [060 - OOP IEC 61131-3 PLC --  ]()
+    - 🔗 [061 - OOP IEC 61131-3 PLC --  ]()
 
 ***

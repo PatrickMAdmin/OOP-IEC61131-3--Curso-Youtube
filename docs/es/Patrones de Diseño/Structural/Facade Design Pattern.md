@@ -13,5 +13,5 @@
 - 🔗 [genbeta.com/desarrollo/diseno-con-patrones-y-fachadas](https://www.genbeta.com/desarrollo/diseno-con-patrones-y-fachadas)
 ***
 ### <span style="color:grey">Link al Video de Youtube_54:</span>
-- 🔗 [054 - OOP IEC 61131-3 PLC -- Patrones de Diseño - Estructural - Fachada]()
+- 🔗 [054 - OOP IEC 61131-3 PLC -- Patrones de Diseño - Estructural - Fachada](https://youtu.be/CknuqL848Jo)
 ***

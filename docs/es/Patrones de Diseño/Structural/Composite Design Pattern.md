@@ -1,5 +1,5 @@
 👉[**Composite**](https://refactoring.guru/es/design-patterns/composite) es un patrón de diseño estructural que te permite componer objetos en estructuras de árbol y trabajar con esas estructuras como si fueran objetos individuales.
-### <span style="color:grey">Diagrama de Clases UML - Bridge:</span>
+### <span style="color:grey">Diagrama de Clases UML - Composite:</span>
 
 ![Design_Pattern_Structural_Composite](../../imagenes/Design_Pattern_Structural_Composite.JPG)
 ***

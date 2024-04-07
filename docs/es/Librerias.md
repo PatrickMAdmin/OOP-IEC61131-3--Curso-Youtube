@@ -1,13 +1,17 @@
 ### <span style="color:grey"> Librerias:</span>
-Cuando desarrollas un proyecto, ¿qué haces cuando quieres reutilizar el mismo programa para otro proyecto? Probablemente el más común es copiar y pegar. Esto está bien para proyectos pequeños, pero a medida que crece la aplicación, las bibliotecas nos permiten administrar las funciones y los bloques de funciones que hemos creado.
+Cuando desarrollas un proyecto, ¿qué haces cuando quieres reutilizar el mismo programa para otro proyecto?. Probablemente el más común es copiar y pegar.
+Esto está bien para proyectos pequeños, pero a medida que crece la aplicación, las bibliotecas nos permiten administrar las funciones y los bloques de funciones que hemos creado.
 
-Mediante el uso de bibliotecas, podemos administrar el software que hemos creado en múltiples proyectos. En primer lugar, es un hecho que diferentes dispositivos tendrán diferentes funciones, pero aun así, siempre habrá partes comunes. En el mundo del desarrollo de software, ese concepto de gestión de bibliotecas es bastante común.
+Mediante el uso de bibliotecas, podemos administrar el software que hemos creado en múltiples proyectos. En primer lugar, es un hecho que diferentes dispositivos tendrán diferentes funciones, pero aun así, siempre habrá partes comunes. 
+En el mundo del desarrollo de software, este concepto de gestión de bibliotecas es bastante común.
 
-### <span style="color:grey">¿Cuáles son las ventajas de usar la biblioteca?</span>
+### <span style="color:grey">¿Cuáles son las ventajas de usar las bibliotecas (Librerias)?</span>
 
 - El software es modular, por ejemplo, si tengo software para cilindros, puedo usar la biblioteca de cilindros, y si tengo software para registro, puedo usar la biblioteca de registro.
 - Cada biblioteca se prueba de forma independiente.
-
+***
+### <span style="color:grey">¿Donde encontrar las librerias creadas?</span>
+- 📚 👉 [Proyecto Librerias creadas](https://github.com/runtimevic/OOP-IEC61131-3--Curso-Youtube/tree/master/Library)
 ***
 ### <span style="color:grey">Links Librerias:</span>
 - 🔗 [soup01.com,beckhofftwincat3-library-management](http://soup01.com/en/2023/05/11/beckhofftwincat3-library-management/)
@@ -24,14 +28,18 @@ Mediante el uso de bibliotecas, podemos administrar el software que hemos creado
 
 - 🔗 [CoDeSys Library Management & Creation](https://www.youtube.com/watch?v=zjzT96DIIKQ)
 - 🔗 [shaswatraj.com, codesys-library-management-step-by-step-guide](https://www.shaswatraj.com/post/codesys-library-management-step-by-step-guide)
-***
-### <span style="color:grey">Link al Video de Youtube xxx:</span>
 
-***
 ```
 !!! mirar este video por ejemplo para empezar como concepto a realizar las librerias!!!
 ```
+
 - 🔗 [Nguyễn Vỹ, Beckhoff & PLC - OOP Properties| TWINCAT3](https://www.youtube.com/watch?v=0pJFQtXVPVY)
 
 - 🔗 [The Benefits of OOP in PLC Programming: A Case Study with a Conveyor System](https://www.linkedin.com/pulse/benefits-oop-plc-programming-case-study-conveyor-system-zhou-gong%3FtrackingId=9ZY5A6ECss6Eb1w64xLmJQ%253D%253D/?trackingId=9ZY5A6ECss6Eb1w64xLmJQ%3D%3D)
+
+
+***
+### <span style="color:grey">Link al Video de Youtube 57:</span>
+- 🔗 [057 - OOP IEC 61131-3 PLC -- Librerias]()
+
 

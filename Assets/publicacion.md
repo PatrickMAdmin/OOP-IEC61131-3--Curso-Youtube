@@ -2,10 +2,10 @@
 
 Hola,
 Seguimos con el curso de 👩‍💻 OOP IEC 61131-3 PLC 👨‍💻,
-ya esta disponible el Video numero 53 de Youtube:
-en este video veremos: Patrones de Diseño (Design Patterns) - Decorator.
+ya esta disponible el Video numero 54 de Youtube:
+en este video veremos: Patrones de Diseño (Design Patterns) - Facade.
 
-👉 https://youtu.be/mqOeQEtnT5o
+👉 https://youtu.be/CknuqL848Jo
 
 🐙 Repositorio de GitHub:
 - 👉 https://github.com/runtimevic/OOP-IEC61131-3--Curso-Youtube
@@ -71,6 +71,8 @@ Lista de Videos del Curso OOP Programación Orientada a Objetos IEC61131-3 PLC:
 - 051 - https://youtu.be/dzARu7R4laQ
 - 052 - https://youtu.be/xQHbCdcauiI
 - 053 - https://youtu.be/mqOeQEtnT5o
+- 054 - https://youtu.be/CknuqL848Jo
+- 055 -
 
 Se busca colaborador para la traducción de la documentación al idioma que desee... 👀
 
@@ -78,4 +80,4 @@ Se busca colaborador para la traducción de la documentación al idioma que dese
 
 
 ***
-CodeSys,IEC61131,OOP,TwinCAT,IEC61131-3,Object Oriented Programming,PLC, UML, Desing Patterns
+CodeSys,IEC61131,OOP,TwinCAT,IEC61131-3,Object Oriented Programming,PLC, UML, Design Patterns

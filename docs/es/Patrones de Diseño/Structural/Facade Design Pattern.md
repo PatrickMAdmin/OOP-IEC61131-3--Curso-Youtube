@@ -11,6 +11,10 @@
 - 🔗 [es.wikipedia.org/wiki/Facade](https://es.wikipedia.org/wiki/Facade_(patr%C3%B3n_de_dise%C3%B1o))
 
 - 🔗 [genbeta.com/desarrollo/diseno-con-patrones-y-fachadas](https://www.genbeta.com/desarrollo/diseno-con-patrones-y-fachadas)
+
+- 🔗 [Patrones de diseño de Software – Patrón Facade o Fachada](https://www.youtube.com/watch?v=dAJa868t2kE)
+
+- 🔗 [🚀 Conoce el patrón de diseño FACADE](https://www.youtube.com/watch?v=x7ERYJ7J5Wo)
 ***
 ### <span style="color:grey">Link al Video de Youtube_54:</span>
 - 🔗 [054 - OOP IEC 61131-3 PLC -- Patrones de Diseño - Estructural - Fachada](https://youtu.be/CknuqL848Jo)

@@ -1,5 +1,9 @@
 👉[**Flyweight**](https://refactoring.guru/es/design-patterns/flyweight) es un patrón de diseño estructural que te permite mantener más objetos dentro de la cantidad disponible de RAM compartiendo las partes comunes del estado entre varios objetos en lugar de mantener toda la información en cada objeto.
-*** 
+***
+### <span style="color:grey">Diagrama de Clases UML - Flyweight:</span>
+
+![Design_Pattern_Structural_Flyweight](../../imagenes/Design_Pattern_Structural_Flyweight.JPG)
+***
 ### <span style="color:grey">Links de Patrones de Diseño - Flyweight:</span>
 
 - 🔗 [refactoring.guru/es/design-patterns/flyweight](https://refactoring.guru/es/design-patterns/flyweight)

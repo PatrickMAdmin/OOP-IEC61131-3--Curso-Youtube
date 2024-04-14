@@ -14,5 +14,5 @@
 
 ***
 ### <span style="color:grey">Link al Video de Youtube_55:</span>
-- 🔗 [055 - OOP IEC 61131-3 PLC -- Patrones de Diseño - Estructural - Peso Ligero]()
+- 🔗 [055 - OOP IEC 61131-3 PLC -- Patrones de Diseño - Estructural - Peso Ligero](https://youtu.be/EhXNg0yuIhI)
 ***

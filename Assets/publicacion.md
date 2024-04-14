@@ -2,10 +2,10 @@
 
 Hola,
 Seguimos con el curso de 👩‍💻 OOP IEC 61131-3 PLC 👨‍💻,
-ya esta disponible el Video numero 54 de Youtube:
-en este video veremos: Patrones de Diseño (Design Patterns) - Facade.
+ya esta disponible el Video numero 55 de Youtube:
+en este video veremos: Patrones de Diseño (Design Patterns) - Flyweight.
 
-👉 https://youtu.be/CknuqL848Jo
+👉 https://youtu.be/EhXNg0yuIhI
 
 🐙 Repositorio de GitHub:
 - 👉 https://github.com/runtimevic/OOP-IEC61131-3--Curso-Youtube
@@ -72,7 +72,8 @@ Lista de Videos del Curso OOP Programación Orientada a Objetos IEC61131-3 PLC:
 - 052 - https://youtu.be/xQHbCdcauiI
 - 053 - https://youtu.be/mqOeQEtnT5o
 - 054 - https://youtu.be/CknuqL848Jo
-- 055 -
+- 055 - https://youtu.be/EhXNg0yuIhI
+- 056 -
 
 Se busca colaborador para la traducción de la documentación al idioma que desee... 👀
 

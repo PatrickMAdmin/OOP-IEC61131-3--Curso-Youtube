@@ -13,5 +13,5 @@
 - 🔗 [Aprende los principales patrones de diseño con .NET y C#. Patron Proxy](https://www.youtube.com/watch?v=mWRapN89cPc)
 ***
 ### <span style="color:grey">Link al Video de Youtube_56:</span>
-- 🔗 [056 - OOP IEC 61131-3 PLC -- Patrones de Diseño - Estructural - Proxy]()
+- 🔗 [056 - OOP IEC 61131-3 PLC -- Patrones de Diseño - Estructural - Proxy](https://youtu.be/_LmpfAeulgQ)
 ***

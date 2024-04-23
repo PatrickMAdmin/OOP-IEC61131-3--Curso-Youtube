@@ -1,5 +1,6 @@
 ### <span style="color:grey"> Librerias:</span>
-Cuando desarrollas un proyecto, ¿qué haces cuando quieres reutilizar el mismo programa para otro proyecto?. Probablemente el más común es copiar y pegar.
+Cuando desarrollas un proyecto, ¿qué haces cuando quieres reutilizar el mismo programa para otro proyecto?. 
+Probablemente el más común es copiar y pegar.
 Esto está bien para proyectos pequeños, pero a medida que crece la aplicación, las bibliotecas nos permiten administrar las funciones y los bloques de funciones que hemos creado.
 
 Mediante el uso de bibliotecas, podemos administrar el software que hemos creado en múltiples proyectos. En primer lugar, es un hecho que diferentes dispositivos tendrán diferentes funciones, pero aun así, siempre habrá partes comunes. 
@@ -39,7 +40,7 @@ En el mundo del desarrollo de software, este concepto de gestión de bibliotecas
 
 
 ***
-### <span style="color:grey">Link al Video de Youtube 57:</span>
-- 🔗 [057 - OOP IEC 61131-3 PLC -- Librerias]()
+### <span style="color:grey">Link al Video de Youtube 57,58,59:</span>
+- 🔗 [057 - OOP IEC 61131-3 PLC -- Librerias - parte1]()
 
 

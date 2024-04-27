@@ -13,12 +13,12 @@ En el mundo del desarrollo de software, este concepto de gestión de bibliotecas
 ***
 ### <span style="color:grey">Ajustes de Configuración en el IDE Visual Studio XAE para GIT: </span>
 - 1 -- Enable Plugin GIT
-- 2 -- TwinCAT --> XAE Environment --> File Settings -- enable all to: True
-- 3 -- Write Options -- Separate LineIds : True
+- 2 -- Tools --> Options --> TwinCAT --> XAE Environment --> File Settings -- enable all to: True
+- 3 -- Tools --> Options --> TwinCAT --> PLC Environment --> Write Options -- Separate LineIDs : True
     - 🔗 [s-linedid](https://automacaoweb.wordpress.com/2022/07/26/vcs-linedid/)
 ### <span style="color:grey">Ajustes de Configuración en el IDE Visual Studio XAE Opcionales: </span>
-- 1 -- Optional: TwinCAT --> PLC Environment --> Text Editor --> Text area --> End of line markers : Enable
-- 2 -- Optional: TwinCAT --> PLC Environment --> Smart coding -- Declared unknow variables automatically/(AutoDeclare) : Deselect
+- 1 -- (Optional): Tools --> Options --> TwinCAT --> PLC Environment --> Text Editor --> Text area --> End of line markers : Enable
+- 2 -- (Optional): Tools --> Options --> TwinCAT --> PLC Environment --> Smart coding -- Declared unknow variables automatically/(AutoDeclare) : Deselect
 ***
 ### <span style="color:grey">Cambios de Configuración despues de la creación de un proyecto nuevo: </span>
 - 1 -- Properties --> Common --> Minimize ID changes in TwinCAT files : Enable

@@ -11,7 +11,31 @@ En el mundo del desarrollo de software, este concepto de gestión de bibliotecas
 - El software es modular, por ejemplo, si tengo software para cilindros, puedo usar la biblioteca de cilindros, y si tengo software para registro, puedo usar la biblioteca de registro.
 - Cada biblioteca se prueba de forma independiente.
 ***
-### <span style="color:grey">¿Donde encontrar las librerias creadas?</span>
+### <span style="color:grey">Ajustes de Configuración en el IDE Visual Studio XAE para GIT: </span>
+- 1 -- Enable Plugin GIT
+- 2 -- TwinCAT --> XAE Environment --> File Settings -- enable all to: True
+- 3 -- Write Options -- Separate LineIds : True
+    - 🔗 https://automacaoweb.wordpress.com/2022/07/26/vcs-linedid/
+### <span style="color:grey">Ajustes de Configuración en el IDE Visual Studio XAE Opcionales: </span>
+- 1 -- Optional: TwinCAT --> PLC Environment --> Text Editor --> Text area --> End of line markers : Enable
+- 2 -- Optional: TwinCAT --> PLC Environment --> Smart coding -- Declared unknow variables automatically/(AutoDeclare) : Deselect
+***
+### <span style="color:grey">Cambios de Configuración despues de la creación de un proyecto nuevo: </span>
+- 1 -- Properties --> Common --> Minimize ID changes in TwinCAT files : Enable
+- 2 -- Properties --> Advanced -- Write product version in files -- Deselect
+- 3 -- Mantener enlaces no restaurados
+    - 🔗 https://automacaoweb.wordpress.com/2022/07/25/vcs-manter-links-nao-restaurados-keep-unrestored-links/
+- 4 -- al finalizar el proyecto : Pin Version
+    - 🔗 https://automacaoweb.wordpress.com/2022/07/25/vcs-pin-version/
+- 5 -- al finalizar el proyecto : Fijar versiones de bibliotecas
+    - 🔗 https://automacaoweb.wordpress.com/2022/07/25/vcs-fixar-versoes-das-bibliotecas/
+
+***
+### <span style="color:grey">Links para Configuración del IDE y del proyecto : </span>
+- 🔗 [5 TwinCAT settings I always change](https://www.youtube.com/watch?v=KKpBtaYjfWo&t=5s)
+- 🔗  [TC3 – Control de versiones con Git/GitHub](https://automacaoweb.wordpress.com/2022/07/25/tc3-controle-de-versao/)
+***
+### <span style="color:grey">¿Donde encontrar las librerias creadas de este Curso de OOP?</span>
 - 📚 👉 [Proyecto Librerias creadas](https://github.com/runtimevic/OOP-IEC61131-3--Curso-Youtube/tree/master/Library)
 ***
 ### <span style="color:grey">Links Librerias:</span>

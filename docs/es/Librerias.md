@@ -15,7 +15,7 @@ En el mundo del desarrollo de software, este concepto de gestión de bibliotecas
 - 1 -- Enable Plugin GIT
 - 2 -- TwinCAT --> XAE Environment --> File Settings -- enable all to: True
 - 3 -- Write Options -- Separate LineIds : True
-    - 🔗 https://automacaoweb.wordpress.com/2022/07/26/vcs-linedid/
+    - 🔗 [s-linedid](https://automacaoweb.wordpress.com/2022/07/26/vcs-linedid/)
 ### <span style="color:grey">Ajustes de Configuración en el IDE Visual Studio XAE Opcionales: </span>
 - 1 -- Optional: TwinCAT --> PLC Environment --> Text Editor --> Text area --> End of line markers : Enable
 - 2 -- Optional: TwinCAT --> PLC Environment --> Smart coding -- Declared unknow variables automatically/(AutoDeclare) : Deselect
@@ -24,11 +24,11 @@ En el mundo del desarrollo de software, este concepto de gestión de bibliotecas
 - 1 -- Properties --> Common --> Minimize ID changes in TwinCAT files : Enable
 - 2 -- Properties --> Advanced -- Write product version in files -- Deselect
 - 3 -- Mantener enlaces no restaurados
-    - 🔗 https://automacaoweb.wordpress.com/2022/07/25/vcs-manter-links-nao-restaurados-keep-unrestored-links/
+    - 🔗 [vcs-manter-links-nao-restaurados-keep-unrestored-links](https://automacaoweb.wordpress.com/2022/07/25/vcs-manter-links-nao-restaurados-keep-unrestored-links/)
 - 4 -- al finalizar el proyecto : Pin Version
-    - 🔗 https://automacaoweb.wordpress.com/2022/07/25/vcs-pin-version/
+    - 🔗 [-pin-version](https://automacaoweb.wordpress.com/2022/07/25/vcs-pin-version/)
 - 5 -- al finalizar el proyecto : Fijar versiones de bibliotecas
-    - 🔗 https://automacaoweb.wordpress.com/2022/07/25/vcs-fixar-versoes-das-bibliotecas/
+    - 🔗 [vcs-fixar-versoes-das-bibliotecas](https://automacaoweb.wordpress.com/2022/07/25/vcs-fixar-versoes-das-bibliotecas/)
 
 ***
 ### <span style="color:grey">Links para Configuración del IDE y del proyecto : </span>

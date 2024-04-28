@@ -12,8 +12,8 @@ En el mundo del desarrollo de software, este concepto de gestión de bibliotecas
 - Cada biblioteca se prueba de forma independiente.
 ***
 ### <span style="color:grey">Ajustes de Configuración en el IDE Visual Studio XAE para GIT: </span>
-- 1 -- Enable Plugin GIT
-- 2 -- Tools --> Options --> TwinCAT --> XAE Environment --> File Settings -- enable all to: True
+- 1 -- Tools --> Options --> Source Control --> Plug-in Selection --> Current source control plug-in: Git
+- 2 -- Tools --> Options --> TwinCAT --> XAE Environment --> File settings -- enable all to: True
 - 3 -- Tools --> Options --> TwinCAT --> PLC Environment --> Write Options -- Separate LineIDs : True
     - 🔗 [s-linedid](https://automacaoweb.wordpress.com/2022/07/26/vcs-linedid/)
 ### <span style="color:grey">Ajustes de Configuración en el IDE Visual Studio XAE Opcionales: </span>

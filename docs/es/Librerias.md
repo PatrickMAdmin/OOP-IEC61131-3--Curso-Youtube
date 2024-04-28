@@ -64,7 +64,9 @@ En el mundo del desarrollo de software, este concepto de gestión de bibliotecas
 
 
 ***
-### <span style="color:grey">Link al Video de Youtube 57,58,59:</span>
-- 🔗 [057 - OOP IEC 61131-3 PLC -- Librerias - parte1]()
+### <span style="color:grey">Links a los Videos de Youtube 57,58,59:</span>
+- 🔗 [057 - OOP IEC 61131-3 PLC -- Librerias - parte_01](https://youtu.be/Kox2D_l65CA)
+- 🔗 [058 - OOP IEC 61131-3 PLC -- Librerias - parte_02]()
+- 🔗 [059 - OOP IEC 61131-3 PLC -- Librerias - parte_03]()
 
 

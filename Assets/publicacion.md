@@ -2,10 +2,10 @@
 
 Hola,
 Seguimos con el curso de 👩‍💻 OOP IEC 61131-3 PLC 👨‍💻,
-ya esta disponible el Video numero 56 de Youtube:
-en este video veremos: Patrones de Diseño (Design Patterns) - Proxy.
+ya esta disponible el Video numero 57 de Youtube:
+en este video veremos: Library - 01.
 
-👉 https://youtu.be/_LmpfAeulgQ
+👉 https://youtu.be/Kox2D_l65CA
 
 🐙 Repositorio de GitHub:
 - 👉 https://github.com/runtimevic/OOP-IEC61131-3--Curso-Youtube
@@ -74,6 +74,7 @@ Lista de Videos del Curso OOP Programación Orientada a Objetos IEC61131-3 PLC:
 - 054 - https://youtu.be/CknuqL848Jo
 - 055 - https://youtu.be/EhXNg0yuIhI
 - 056 - https://youtu.be/_LmpfAeulgQ
+- 057 - https://youtu.be/Kox2D_l65CA
 
 Se busca colaborador para la traducción de la documentación al idioma que desee... 👀
 

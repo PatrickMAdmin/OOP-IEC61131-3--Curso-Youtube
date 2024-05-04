@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1">
+  <POU Name="FB_FB_AXL_E_EC_DI8_DO8_M12_6P_BitMaps" Id="{b2907bd6-1277-0e41-280b-d33eccb1bcf4}" SpecialFunc="None">
+    <Declaration><![CDATA[FUNCTION_BLOCK FB_FB_AXL_E_EC_DI8_DO8_M12_6P_BitMaps
+VAR_INPUT
+i_ModuleOut:ARRAY[1..8]OF BOOL;
+END_VAR
+VAR_OUTPUT
+q_ModuleIn:ARRAY[1..8]OF BOOL;
+q_DatosOK :BOOL;
+END_VAR
+VAR
+DI1,DI2,DI3,DI4,DI5,DI6,Di7,DI8 AT %I*:BIT;
+DO1,DO2,DO3,DO4,DO5,DO6,DO7,DO8 AT %Q*:BIT;
+WcState AT %I*:BIT;
+END_VAR]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[q_ModuleIn[1]:=DI1;
+q_ModuleIn[2]:=DI2;
+q_ModuleIn[3]:=DI3;
+q_ModuleIn[4]:=DI4;
+q_ModuleIn[5]:=DI5;
+q_ModuleIn[6]:=DI6;
+q_ModuleIn[7]:=DI7;
+q_ModuleIn[8]:=DI8;
+
+//Estado
+q_DataOK:=NOT WcState;
+
+//
+DO1:=i_ModuleOut[1];
+DO2:=i_ModuleOut[2];
+DO3:=i_ModuleOut[3];
+DO4:=i_ModuleOut[4];
+DO5:=i_ModuleOut[5];
+DO6:=i_ModuleOut[6];
+DO7:=i_ModuleOut[7];
+DO8:=i_ModuleOut[8];]]></ST>
+    </Implementation>
+  </POU>
+</TcPlcObject>

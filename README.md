@@ -81,9 +81,9 @@
     - 🔗 [055 - OOP IEC 61131-3 PLC -- Patrones de Diseño - Estructural - Peso Ligero](https://youtu.be/EhXNg0yuIhI)
     - 🔗 [056 - OOP IEC 61131-3 PLC -- Patrones de Diseño - Estructural - Proxy](https://youtu.be/_LmpfAeulgQ)
     - 🔗 [057 - OOP IEC 61131-3 PLC -- Librerias, Biblioteca - parte_01](https://youtu.be/Kox2D_l65CA)
-    - 🔗 [058 - OOP IEC 61131-3 PLC -- Librerias, Biblioteca - parte_02]()
+    - 🔗 [058 - OOP IEC 61131-3 PLC -- Librerias, Biblioteca - parte_02](https://youtu.be/krtj_cOGvzA)
     - 🔗 [059 - OOP IEC 61131-3 PLC -- Librerias, Biblioteca - parte_03]()
-    - 🔗 [060 - OOP IEC 61131-3 PLC --  ]()
+    - 🔗 [060 - OOP IEC 61131-3 PLC -- Librerias, Biblioteca - parte_04]()
     - 🔗 [061 - OOP IEC 61131-3 PLC --  ]()
 
 ***

@@ -18,9 +18,40 @@
     <LibraryReferences>{60642cd2-3621-4c7d-a0fc-1da625ddc2af}</LibraryReferences>
     <Released>false</Released>
     <CombineIds>true</CombineIds>
+    <Company>Course_OOP</Company>
+    <Title>Library_OOP_Course</Title>
+    <ProjectVersion>0.0.0.2</ProjectVersion>
+    <DefaultNamespace>Course-OOP</DefaultNamespace>
+    <Author>Victor Duran -- Runtimevic</Author>
+    <Description>Library Couse OOP</Description>
+    <LibraryCategories>
+      <LibraryCategory>
+        <Id>{4c30be10-0c29-4796-921e-62ecfda40191}</Id>
+        <Version>0.0.0.1</Version>
+        <DefaultName>Course_OOP</DefaultName>
+      </LibraryCategory>
+      <LibraryCategory>
+        <Id>{e42e9899-3114-40a3-911f-5f44e2769932}</Id>
+        <Version>0.0.0.1</Version>
+        <ParentCategory>
+          <Id>{4c30be10-0c29-4796-921e-62ecfda40191}</Id>
+        </ParentCategory>
+        <DefaultName>SubCategory</DefaultName>
+      </LibraryCategory>
+    </LibraryCategories>
+    <SelectedLibraryCategories>
+      <Id xmlns="">{4c30be10-0c29-4796-921e-62ecfda40191}</Id>
+      <Id xmlns="">{e42e9899-3114-40a3-911f-5f44e2769932}</Id>
+    </SelectedLibraryCategories>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="FBs\FB_FB_AXL_E_EC_DI8_DO8_M12_6P_BitMaps.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="FCs\FC_Sum_int.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FCs\FC_Word2Bools.TcPOU">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="PlcTask.TcTTO">
@@ -29,16 +60,23 @@
     <Compile Include="POUs\MAIN.TcPOU">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Version\Global_Version.TcGVL">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DUTs" />
     <Folder Include="GVLs" />
     <Folder Include="FCs" />
     <Folder Include="FBs" />
+    <Folder Include="Version" />
     <Folder Include="VISUs" />
     <Folder Include="POUs" />
   </ItemGroup>
   <ItemGroup>
+    <PlaceholderReference Include="Library_OOP_Course">
+      <DefaultResolution>Library_OOP_Course, * (Course_OOP)</DefaultResolution>
+    </PlaceholderReference>
     <PlaceholderReference Include="Tc2_Standard">
       <DefaultResolution>Tc2_Standard, * (Beckhoff Automation GmbH)</DefaultResolution>
       <Namespace>Tc2_Standard</Namespace>

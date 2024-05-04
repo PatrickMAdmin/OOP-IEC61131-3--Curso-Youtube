@@ -35,12 +35,16 @@ En el mundo del desarrollo de software, este concepto de gestión de bibliotecas
 - 🔗 [5 TwinCAT settings I always change](https://www.youtube.com/watch?v=KKpBtaYjfWo&t=5s)
 - 🔗  [TC3 – Control de versiones con Git/GitHub](https://automacaoweb.wordpress.com/2022/07/25/tc3-controle-de-versao/)
 ***
+### <span style="color:grey">Configuración Common para el proyecto de Librerias: </span>
+- 🔗 [soup01.com,beckhofftwincat3-library-management](http://soup01.com/en/2023/05/11/beckhofftwincat3-library-management/)
+- 🔗 [PLC programming using TwinCAT 3 - Libraries (Part 11/18)](https://www.youtube.com/watch?v=rWWPWuUYFbg)
+
+    ![TwinCAT_Libraries_Common](./imagenes/TwinCAT_Libraries_Common.png)
 ### <span style="color:grey">¿Donde encontrar las librerias creadas de este Curso de OOP?</span>
 - 📚 👉 [Proyecto Librerias creadas](https://github.com/runtimevic/OOP-IEC61131-3--Curso-Youtube/tree/master/Library)
 ***
 ### <span style="color:grey">Links Librerias:</span>
-- 🔗 [soup01.com,beckhofftwincat3-library-management](http://soup01.com/en/2023/05/11/beckhofftwincat3-library-management/)
-- 🔗 [PLC programming using TwinCAT 3 - Libraries (Part 11/18)](https://www.youtube.com/watch?v=rWWPWuUYFbg)
+
 - 🔗 [help.codesys.com,_cds_obj_library_manager/](https://help.codesys.com/api-content/2/codesys/3.5.13.0/en/_cds_obj_library_manager/)
 - 🔗 [help.codesys.com,_cds_library_development_information/](https://help.codesys.com/api-content/2/codesys/3.5.13.0/en/_cds_library_development_information/)
 - 🔗 [help.codesys.com,_tm_test_action_libraries_addlibrary](https://help.codesys.com/webapp/_tm_test_action_libraries_addlibrary;product=codesys_test_manager;version=4.3.1.0)

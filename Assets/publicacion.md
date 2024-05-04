@@ -75,6 +75,7 @@ Lista de Videos del Curso OOP Programación Orientada a Objetos IEC61131-3 PLC:
 - 055 - https://youtu.be/EhXNg0yuIhI
 - 056 - https://youtu.be/_LmpfAeulgQ
 - 057 - https://youtu.be/Kox2D_l65CA
+- 058 -
 
 Se busca colaborador para la traducción de la documentación al idioma que desee... 👀
 
@@ -82,4 +83,4 @@ Se busca colaborador para la traducción de la documentación al idioma que dese
 
 
 ***
-CodeSys,IEC61131,OOP,TwinCAT,IEC61131-3,Object Oriented Programming,PLC, UML, Design Patterns
+CodeSys,IEC61131,OOP,TwinCAT,IEC61131-3,Object Oriented Programming,PLC, UML, Design Patterns, Library

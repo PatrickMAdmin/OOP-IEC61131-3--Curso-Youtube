@@ -43,6 +43,7 @@ En el mundo del desarrollo de software, este concepto de gestión de bibliotecas
 - 🔗 [library-categories](https://alltwincat.com/2018/08/16/library-categories/)
 - 🔗 [TwinCAT-LibraryCategories](https://github.com/sagatowski/TwinCAT-LibraryCategories)
 - 🔗 [www.guidgenerator.com](https://www.guidgenerator.com/)
+- 🔗 [Command Properties (PLC project),Category Common](https://infosys.beckhoff.com/content/1033/tc3_plc_intro/3260045067.html?id=49844948578869775)
 
     ![TwinCAT_Libraries_Common](./imagenes/TwinCAT_Libraries_Common.png)
 ### <span style="color:grey">¿Donde encontrar las librerias creadas de este Curso de OOP?</span>

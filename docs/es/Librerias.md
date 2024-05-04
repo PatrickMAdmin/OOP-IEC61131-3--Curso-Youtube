@@ -29,7 +29,8 @@ En el mundo del desarrollo de software, este concepto de gestión de bibliotecas
     - 🔗 [-pin-version](https://automacaoweb.wordpress.com/2022/07/25/vcs-pin-version/)
 - 5 -- al finalizar el proyecto : Fijar versiones de bibliotecas
     - 🔗 [vcs-fixar-versoes-das-bibliotecas](https://automacaoweb.wordpress.com/2022/07/25/vcs-fixar-versoes-das-bibliotecas/)
-
+    - 🔗 [managing-twincat-libraries](https://alltwincat.com/2018/03/01/managing-twincat-libraries/)
+    - 🔗 [managing-twincat-libraries-jakob-sagatowski](https://www.linkedin.com/pulse/managing-twincat-libraries-jakob-sagatowski/)
 ***
 ### <span style="color:grey">Links para Configuración del IDE y del proyecto : </span>
 - 🔗 [5 TwinCAT settings I always change](https://www.youtube.com/watch?v=KKpBtaYjfWo&t=5s)
@@ -38,6 +39,10 @@ En el mundo del desarrollo de software, este concepto de gestión de bibliotecas
 ### <span style="color:grey">Configuración Common para el proyecto de Librerias: </span>
 - 🔗 [soup01.com,beckhofftwincat3-library-management](http://soup01.com/en/2023/05/11/beckhofftwincat3-library-management/)
 - 🔗 [PLC programming using TwinCAT 3 - Libraries (Part 11/18)](https://www.youtube.com/watch?v=rWWPWuUYFbg)
+- 🔗 [project-build-version-in-runtime](https://alltwincat.com/2017/06/06/project-build-version-in-runtime/)
+- 🔗 [library-categories](https://alltwincat.com/2018/08/16/library-categories/)
+- 🔗 [TwinCAT-LibraryCategories](https://github.com/sagatowski/TwinCAT-LibraryCategories)
+- 🔗 [www.guidgenerator.com](https://www.guidgenerator.com/)
 
     ![TwinCAT_Libraries_Common](./imagenes/TwinCAT_Libraries_Common.png)
 ### <span style="color:grey">¿Donde encontrar las librerias creadas de este Curso de OOP?</span>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1">
+  <POU Name="FC_Sum_int" Id="{7602be65-ed33-0c01-2310-e075aba6cb83}" SpecialFunc="None">
+    <Declaration><![CDATA[FUNCTION FC_Sum_int : INT
+VAR_INPUT
+	operand1 : INT;
+	operand2 : INT;
+END_VAR
+VAR
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[
+FC_Sum_int := operand1 + operand2
+]]></ST>
+    </Implementation>
+  </POU>
+</TcPlcObject>

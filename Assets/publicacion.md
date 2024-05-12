@@ -5,7 +5,7 @@ Seguimos con el curso de 👩‍💻 OOP IEC 61131-3 PLC 👨‍💻,
 ya esta disponible el Video numero 59 de Youtube:
 en este video veremos: Library - 03.
 
-👉 https://youtu.be/krtj_cOGvzA
+👉 https://youtu.be/dck-307PAjg
 
 🐙 Repositorio de GitHub:
 - 👉 https://github.com/runtimevic/OOP-IEC61131-3--Curso-Youtube
@@ -76,7 +76,7 @@ Lista de Videos del Curso OOP Programación Orientada a Objetos IEC61131-3 PLC:
 - 056 - https://youtu.be/_LmpfAeulgQ
 - 057 - https://youtu.be/Kox2D_l65CA
 - 058 - https://youtu.be/krtj_cOGvzA
-- 059 -
+- 059 - https://youtu.be/dck-307PAjg
 
 Se busca colaborador para traducir la documentación al idioma que desee... 👀
 

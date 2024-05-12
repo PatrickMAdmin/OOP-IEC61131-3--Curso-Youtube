@@ -43,6 +43,7 @@
       <Id xmlns="">{4c30be10-0c29-4796-921e-62ecfda40191}</Id>
       <Id xmlns="">{e42e9899-3114-40a3-911f-5f44e2769932}</Id>
     </SelectedLibraryCategories>
+    <DocFormat>reStructuredText</DocFormat>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Components\Cylinder\Interfaces\I_AtHome.TcIO">
@@ -69,6 +70,18 @@
     <Compile Include="POUs\MAIN.TcPOU">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Project Information\F_GetCompany.TcPOU">
+      <SubType>Code</SubType>
+      <SystemCall>true</SystemCall>
+    </Compile>
+    <Compile Include="Project Information\F_GetTitle.TcPOU">
+      <SubType>Code</SubType>
+      <SystemCall>true</SystemCall>
+    </Compile>
+    <Compile Include="Project Information\F_GetVersion.TcPOU">
+      <SubType>Code</SubType>
+      <SystemCall>true</SystemCall>
+    </Compile>
     <Compile Include="Units\DigitalInput\Class\FB_DigitalInput.TcPOU">
       <SubType>Code</SubType>
     </Compile>
@@ -94,6 +107,7 @@
     <Folder Include="FCs" />
     <Folder Include="FBs" />
     <Folder Include="Components" />
+    <Folder Include="Project Information" />
     <Folder Include="Units" />
     <Folder Include="Units\DigitalInput" />
     <Folder Include="Units\DigitalInput\Class" />

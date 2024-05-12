@@ -46,6 +46,19 @@ En el mundo del desarrollo de software, este concepto de gestión de bibliotecas
 - 🔗 [Command Properties (PLC project),Category Common](https://infosys.beckhoff.com/content/1033/tc3_plc_intro/3260045067.html?id=49844948578869775)
 
     ![TwinCAT_Libraries_Common](./imagenes/TwinCAT_Libraries_Common.png)
+***
+### <span style="color:grey">Documentar Bloques y Librerias:</span>
+
+- Documentation format -- Options:
+    - Up to TC3.1 Build 4024: reStructuredText:
+        - 🔗 [Extended – reStructuredText](https://infosys.beckhoff.com/content/1033/tc3_plc_intro/4423058059.html?id=4930358259585406454)
+        - 🔗 [reStructuredText syntax reminder](https://infosys.beckhoff.com/content/1033/tc3_plc_intro/6158078987.html?id=4654664995158782773)
+        - 🔗 [Library documentation reStructuredTex](https://infosys.beckhoff.com/content/1033/tc3_plc_intro/7647368331.html?id=8244039490743699870)
+        - 🔗 [Documentation of a function block](https://infosys.beckhoff.com/content/1033/tc3_plc_intro/6158080011.html?id=8022103526872950709)
+    - From TC3.1 Build 4026: TcDocGen
+
+        - 🔗 [TE1030 | TwinCAT 3 Documentation Generation -- TwinCAT 3.1.4026](https://www.beckhoff.com/en-en/products/automation/twincat/texxxx-twincat-3-engineering/te1030.html)
+
 ### <span style="color:grey">¿Donde encontrar las librerias creadas de este Curso de OOP?</span>
 - 📚 👉 [Proyecto Librerias creadas](https://github.com/runtimevic/OOP-IEC61131-3--Curso-Youtube/tree/master/Library)
 ***

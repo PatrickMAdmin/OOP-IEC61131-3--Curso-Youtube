@@ -45,6 +45,15 @@
     </SelectedLibraryCategories>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Components\Cylinder\Interfaces\I_AtHome.TcIO">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Components\Cylinder\Interfaces\I_AtWork.TcIO">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Components\Cylinder\Interfaces\I_MoveTo.TcIO">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="FBs\FB_FB_AXL_E_EC_DI8_DO8_M12_6P_BitMaps.TcPOU">
       <SubType>Code</SubType>
     </Compile>
@@ -60,15 +69,40 @@
     <Compile Include="POUs\MAIN.TcPOU">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Units\DigitalInput\Class\FB_DigitalInput.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Units\DigitalInput\Interface\I_DigitalStatus.TcIO">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Units\DigitalOutput\Class\FB_DigitalOutput.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Units\DigitalOutput\Interface\I_DigitalOutput.TcIO">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Version\Global_Version.TcGVL">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Components\Cylinder" />
+    <Folder Include="Components\Cylinder\Interfaces" />
+    <Folder Include="Components\Cylinder\DUTs" />
     <Folder Include="DUTs" />
     <Folder Include="GVLs" />
     <Folder Include="FCs" />
     <Folder Include="FBs" />
+    <Folder Include="Components" />
+    <Folder Include="Units" />
+    <Folder Include="Units\DigitalInput" />
+    <Folder Include="Units\DigitalInput\Class" />
+    <Folder Include="Units\DigitalInput\Interface" />
+    <Folder Include="Units\DigitalOutput" />
+    <Folder Include="Units\AnalogOutput" />
+    <Folder Include="Units\DigitalOutput\Class" />
+    <Folder Include="Units\DigitalOutput\Interface" />
+    <Folder Include="Units\Timers" />
     <Folder Include="Version" />
     <Folder Include="VISUs" />
     <Folder Include="POUs" />

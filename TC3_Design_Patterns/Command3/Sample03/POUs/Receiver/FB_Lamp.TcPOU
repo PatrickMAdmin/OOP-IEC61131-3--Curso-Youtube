@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <POU Name="FB_Lamp" Id="{7c1ca31e-ac27-4c3b-b728-b822107c01e4}" SpecialFunc="None">
+    <Declaration><![CDATA[FUNCTION_BLOCK PUBLIC FB_Lamp
+VAR_OUTPUT
+	byLevel			: BYTE;
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[]]></ST>
+    </Implementation>
+    <Property Name="Level" Id="{4211e86c-44ab-4de8-923d-c73739e6ecdd}">
+      <Declaration><![CDATA[PROPERTY PUBLIC Level : BYTE]]></Declaration>
+      <Get Name="Get" Id="{528ce5c7-345f-4f90-8f13-88b59bb4d407}">
+        <Declaration><![CDATA[VAR
+END_VAR
+]]></Declaration>
+        <Implementation>
+          <ST><![CDATA[Level := byLevel;]]></ST>
+        </Implementation>
+      </Get>
+    </Property>
+    <Method Name="SetLevel" Id="{c347e456-d785-4af8-bb30-735cbb9949f4}">
+      <Declaration><![CDATA[METHOD PUBLIC SetLevel : BOOL
+VAR_INPUT
+	byNewLevel			: BYTE;
+END_VAR
+]]></Declaration>
+      <Implementation>
+        <ST><![CDATA[byLevel := byNewLevel;
+]]></ST>
+      </Implementation>
+    </Method>
+  </POU>
+</TcPlcObject>

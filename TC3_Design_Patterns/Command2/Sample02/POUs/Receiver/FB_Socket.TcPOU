@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <POU Name="FB_Socket" Id="{6c475d45-e58d-4130-bc0b-b4c64d3e963b}" SpecialFunc="None">
+    <Declaration><![CDATA[FUNCTION_BLOCK PUBLIC FB_Socket
+VAR_OUTPUT
+	bActive		: BOOL;
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[]]></ST>
+    </Implementation>
+    <Property Name="Active" Id="{b49fa6e5-78d3-4844-bf1a-0a8045063ca5}">
+      <Declaration><![CDATA[PROPERTY PUBLIC Active : BOOL]]></Declaration>
+      <Get Name="Get" Id="{139bff78-ef9a-42d0-aa93-1fd7fdcb5745}">
+        <Declaration><![CDATA[VAR
+END_VAR
+]]></Declaration>
+        <Implementation>
+          <ST><![CDATA[Active := bActive;]]></ST>
+        </Implementation>
+      </Get>
+    </Property>
+    <Method Name="Off" Id="{e36f03c3-37cc-4922-8b54-f1b3d1815351}">
+      <Declaration><![CDATA[METHOD PUBLIC Off
+]]></Declaration>
+      <Implementation>
+        <ST><![CDATA[bActive := false;]]></ST>
+      </Implementation>
+    </Method>
+    <Method Name="On" Id="{63e8b64b-b5a9-4311-b930-dda33d9156ba}">
+      <Declaration><![CDATA[METHOD PUBLIC On
+]]></Declaration>
+      <Implementation>
+        <ST><![CDATA[bActive := true;]]></ST>
+      </Implementation>
+    </Method>
+  </POU>
+</TcPlcObject>

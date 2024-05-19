@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <POU Name="FB_SocketOnCommand" Id="{32814d4a-465d-4349-9673-7cd236c35f92}" SpecialFunc="None">
+    <Declaration><![CDATA[FUNCTION_BLOCK PUBLIC FB_SocketOnCommand IMPLEMENTS I_Command
+VAR
+	refSocket : REFERENCE TO FB_Socket;
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[]]></ST>
+    </Implementation>
+    <Method Name="Execute" Id="{c853df4a-c018-4be1-8553-a294566b8d84}">
+      <Declaration><![CDATA[METHOD Execute
+]]></Declaration>
+      <Implementation>
+        <ST><![CDATA[IF (__ISVALIDREF(THIS^.refSocket)) THEN
+	THIS^.refSocket.On();
+END_IF
+]]></ST>
+      </Implementation>
+    </Method>
+    <Method Name="FB_init" Id="{f730a5f8-2da9-4809-bee5-529b60274b79}">
+      <Declaration><![CDATA[METHOD FB_init : BOOL
+VAR_INPUT
+	bInitRetains : BOOL; // if TRUE, the retain variables are initialized (warm start / cold start)
+	bInCopyCode : BOOL;  // if TRUE, the instance afterwards gets moved into the copy code (online change)
+	refNewSocket : REFERENCE TO FB_Socket;
+END_VAR
+]]></Declaration>
+      <Implementation>
+        <ST><![CDATA[IF (__ISVALIDREF(refNewSocket)) THEN
+	THIS^.refSocket REF= refNewSocket;
+ELSE
+	THIS^.refSocket REF= 0;
+END_IF]]></ST>
+      </Implementation>
+    </Method>
+    <Method Name="Undo" Id="{0f1590db-7995-473d-af6f-20187b5a3c44}">
+      <Declaration><![CDATA[METHOD Undo
+]]></Declaration>
+      <Implementation>
+        <ST><![CDATA[IF (__ISVALIDREF(THIS^.refSocket)) THEN
+	THIS^.refSocket.Off();
+END_IF
+]]></ST>
+      </Implementation>
+    </Method>
+  </POU>
+</TcPlcObject>

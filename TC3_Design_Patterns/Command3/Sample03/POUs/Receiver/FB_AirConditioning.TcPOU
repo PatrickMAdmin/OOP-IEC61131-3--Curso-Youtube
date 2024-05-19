@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <POU Name="FB_AirConditioning" Id="{33062600-9863-4605-87a9-22af9fa61198}" SpecialFunc="None">
+    <Declaration><![CDATA[FUNCTION_BLOCK PUBLIC FB_AirConditioning
+VAR_OUTPUT
+	bActive			: BOOL;
+	lrTemperature	: LREAL;
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[]]></ST>
+    </Implementation>
+    <Method Name="Activate" Id="{c8dc9767-89fe-4d6f-b741-d4ab544ed8ab}">
+      <Declaration><![CDATA[METHOD PUBLIC Activate
+]]></Declaration>
+      <Implementation>
+        <ST><![CDATA[bActive := TRUE;
+
+]]></ST>
+      </Implementation>
+    </Method>
+    <Property Name="Activated" Id="{21e3bc8a-4876-47a7-afea-a4e10750785d}">
+      <Declaration><![CDATA[PROPERTY PUBLIC Activated : BOOL]]></Declaration>
+      <Get Name="Get" Id="{680c8b23-0885-4341-95b1-03a3294e2c73}">
+        <Declaration><![CDATA[VAR
+END_VAR
+]]></Declaration>
+        <Implementation>
+          <ST><![CDATA[Activated := bActive;]]></ST>
+        </Implementation>
+      </Get>
+    </Property>
+    <Method Name="Deactivate" Id="{56e8a2df-9631-413f-ba89-ee0d5381af93}">
+      <Declaration><![CDATA[METHOD PUBLIC Deactivate
+]]></Declaration>
+      <Implementation>
+        <ST><![CDATA[bActive := false;]]></ST>
+      </Implementation>
+    </Method>
+    <Method Name="SetTemperature" Id="{ebb842b8-5199-490c-ace8-ece186a9f51e}">
+      <Declaration><![CDATA[METHOD PUBLIC SetTemperature : BOOL
+VAR_INPUT
+	lrNewTemperature	: LREAL;
+END_VAR
+]]></Declaration>
+      <Implementation>
+        <ST><![CDATA[lrTemperature := lrNewTemperature;
+]]></ST>
+      </Implementation>
+    </Method>
+    <Property Name="Temperature" Id="{91264303-577d-45f7-89af-7cf532fe6a67}">
+      <Declaration><![CDATA[PROPERTY PUBLIC Temperature : LREAL]]></Declaration>
+      <Get Name="Get" Id="{463db962-a01c-4a3b-a8ab-7f75eeb1e2ad}">
+        <Declaration><![CDATA[VAR
+END_VAR
+]]></Declaration>
+        <Implementation>
+          <ST><![CDATA[Temperature := lrTemperature;]]></ST>
+        </Implementation>
+      </Get>
+    </Property>
+  </POU>
+</TcPlcObject>

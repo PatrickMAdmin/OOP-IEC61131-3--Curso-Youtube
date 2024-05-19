@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1">
+  <POU Name="FC_Word2Bools" Id="{5f8f8dca-ffdb-005c-35d4-d598ce74bb8d}" SpecialFunc="None">
+    <Declaration><![CDATA[FUNCTION FC_Word2Bools : ARRAY[0..7]OF BOOL
+VAR_INPUT
+	w16:WORD;
+END_VAR
+VAR
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[FC_Word2Bools[0]:=w16.0;
+FC_Word2Bools[1]:=w16.1;
+FC_Word2Bools[2]:=w16.2;
+FC_Word2Bools[3]:=w16.3;
+FC_Word2Bools[4]:=w16.4;
+FC_Word2Bools[5]:=w16.5;
+FC_Word2Bools[6]:=w16.6;
+FC_Word2Bools[7]:=w16.7;]]></ST>
+    </Implementation>
+  </POU>
+</TcPlcObject>

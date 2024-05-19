@@ -1,10 +1,11 @@
 ### <span style="color:grey"> Principio de Abierto/Cerrado --  (Open/Closed Principle) OCP :</span>
 
-La definición del principio abierto/cerrado
+### <span style="color:grey">La definición del principio abierto/cerrado:</span>
 El Principio Abierto/Cerrado (OCP) fue formulado por Bertrand Meyer en 1988 y establece:
 
-Una entidad de software debe estar abierta a extensiones, pero al mismo tiempo cerrada a modificaciones.
-Entidad de software: Esto significa una clase, bloque de función, módulo, método, servicio, ...
+Una entidad de software debe estar **abierta a extensiones**, pero al mismo tiempo **cerrada a modificaciones**.
+
+Entidad de software: Esto significa una clase, bloque de función, módulo, método, servicio, etc...
 
 **Abierto:** el comportamiento de los módulos de software debe ser extensible.
 
@@ -27,7 +28,6 @@ END_VAR
 
 // método para obtener la velocidad
 getVelocidad() : REAL;
-
 END_FUNCTION_BLOCK
 
 FUNCTION_BLOCK Coche EXTENDS Vehiculo // extiende la función Vehiculo
@@ -35,12 +35,8 @@ VAR_INPUT
     velocidadMaxima : REAL;
 END_VAR
 
-// constructor
-Coche(velocidad, velocidadMaxima);
-
 // método para obtener la velocidad máxima
 getVelocidadMaxima() : REAL;
-
 END_FUNCTION_BLOCK
 
 FUNCTION_BLOCK Moto EXTENDS Vehiculo // extiende la función Vehiculo
@@ -48,16 +44,25 @@ VAR_INPUT
     aceleracion : REAL;
 END_VAR
 
-// constructor
-Moto(velocidad, aceleracion);
-
 // método para obtener la aceleración
 getAceleracion() : REAL;
-
 END_FUNCTION_BLOCK
 ```
+![SOLID_OCP](../imagenes/SOLID_OCP.PNG)
+
 De esta manera, la clase "Vehiculo" está cerrada para modificaciones directas y abierta para extensiones a través de las nuevas clases "Coche" y "Moto". Cada nueva clase agrega funcionalidades específicas sin modificar directamente la clase original.
 ***
 ### <span style="color:grey">Links:</span>
 
 - 🔗 [stefanhenneken.net, EC 61131-3: SOLID – The Open/Closed Principle](https://stefanhenneken.net/2023/04/06/iec-61131-3-solid-the-open-closed-principle/)
+
+- 🔗 [hdeleon.net, Principios SOLID: Principio de Abierto/Cerrado OCP](https://www.youtube.com/watch?v=ViKWVjyMUwQ)
+
+- 🔗 [El Camino Dev, El Principio Abierto Cerrado con C# | Principios SOLID](https://www.youtube.com/watch?v=D7gaQOgZ4Qs)
+
+- 🔗 [makigas: aprende a programar, SOLID: Principio Abierto-Cerrado (OCP)](https://www.youtube.com/watch?v=3QvSS4BEfPs&list=PLTd5ehIj0goO1JFIfukh3UtU9e0BeFM9K&index=2)
+
+- 🔗 [tech.tribalyte.eu, blog-solid-open-closed](https://tech.tribalyte.eu/blog-solid-open-closed)
+***
+### <span style="color:grey">Link al Video de Youtube 025:</span>
+- 🔗 [025 - OOP IEC 61131-3 PLC -- SOLID - OCP](https://youtu.be/75WajVrs6Wo)

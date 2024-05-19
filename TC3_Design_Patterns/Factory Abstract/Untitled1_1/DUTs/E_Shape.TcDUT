@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <DUT Name="E_Shape" Id="{17effacf-6277-44cc-bc0d-125f0acc75c2}">
+    <Declaration><![CDATA[{attribute 'qualified_only'}
+{attribute 'strict'}
+TYPE E_Shape :
+(
+	init := 0,
+	Circle,
+	Rectangle,
+	Sqaure,
+	Star,
+	Triangle,
+	end,
+	Custom
+);
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>

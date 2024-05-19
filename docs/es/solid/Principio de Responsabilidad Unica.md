@@ -10,13 +10,13 @@ En lugar de tener una Clase que maneje todo, creamos dos Clases separadas:
 ```javascript
 FUNCTION_BLOCK Empleado
 VAR_INPUT
-    nombre : STRING;
-    apellido : STRING;
-    correoElectronico : STRING;
+    Nombre : STRING;
+    Apellido : STRING;
+    CorreoElectronico : STRING;
 END_VAR
 
 // constructor
-Empleado(nombre, apellido, correoElectronico);
+Empleado(ST_Empleado);
 
 // getters y setters
 nombre();
@@ -29,13 +29,13 @@ END_FUNCTION_BLOCK
 ```javascript
 FUNCTION_BLOCK RegistroDeTiempo
 VAR_INPUT
-    empleado : Empleado; // instancia de la función Empleado
+    empleado : ST_Empleado; // instancia de la función Empleado
     horaEntrada : DATE_AND_TIME;
     horaSalida : DATE_AND_TIME;
 END_VAR
 
 // constructor
-RegistroDeTiempo(empleado, horaEntrada, horaSalida);
+RegistroDeTiempo(ST_RegistroDeTiempoEmpleado);
 
 // getters y setters
 empleado();
@@ -44,9 +44,22 @@ horaSalida();
 
 END_FUNCTION_BLOCK
 ```
+![ClaseyObjetos1](../imagenes/SOLID_SRP.PNG)
 
 De esta manera, la Clase "Empleado" solo maneja la información personal del empleado y la Clase "RegistroDeTiempo" solo maneja el registro de tiempo. Cada Clase tiene una sola responsabilidad y es más fácil de mantener y modificar en el futuro.
 
 ***
 ### <span style="color:grey">Links:</span>
+
 - 🔗 [stefanhenneken.net,iec-61131-3-solid-the-single-responsibility-principle](https://stefanhenneken.net/2022/03/10/iec-61131-3-solid-the-single-responsibility-principle/)
+
+- 🔗 [hdeleon.net, Principios SOLID: El Principio de Responsabilidad Única SRP](https://www.youtube.com/watch?v=pGYHeYig19Q)
+
+- 🔗 [El Camino Dev, Principio de Responsabilidad Única en C# | Principios SOLID](https://www.youtube.com/watch?v=_SKIi1ooFcQ)
+
+- 🔗 [makigas: aprende a programar, SOLID: Principio de Responsabilidad Única (SRP)](https://www.youtube.com/watch?v=73IBjmyjDX0)
+
+- 🔗 [tech.tribalyte.eu, blog-solid-single-responsability](https://tech.tribalyte.eu/blog-solid-single-responsability)
+***
+### <span style="color:grey">Link al Video de Youtube 024:</span>
+- 🔗 [024 - OOP IEC 61131-3 PLC -- SOLID - SRP](https://youtu.be/bJgXdnHDmrk)

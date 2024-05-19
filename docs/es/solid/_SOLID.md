@@ -26,6 +26,7 @@ Además de los principios SOLID, existen otros principios como:
 ```
 " Mantenlo Simple, Estúpido "
 ```
+
 - Evite la complejidad innecesaria en su código, use soluciones simples para resolver problemas.
 
 - **Ejemplo:** En lugar de escribir un algoritmo personalizado para generar un número aleatorio dentro de un rango, use el generador de números aleatorios incorporado en su lenguaje de programación.
@@ -34,20 +35,26 @@ Además de los principios SOLID, existen otros principios como:
 ```
 " No te repitas "
 ```
+
 - Cada pieza de conocimiento debe tener una representación única, inequívoca y autorizada dentro de un sistema.
+
 - Evite la duplicación de código y mantenga su base de código lo más mantenible y escalable posible.
+
 - **Ejemplo:** En lugar de copiar y pegar el mismo bloque de código en varios lugares, cree una función o módulo que se pueda reutilizar.
 
 ### Law Of Demeter (LOD).
 ```
 " Habla Solo con tus amigos inmediatos "
 ```
+
 - La Ley de Demeter (LOD) en programación es un principio que establece que un objeto debe tener acceso limitado a los objetos relacionados con él y solo interactuar con los objetos más cercanos a él. En resumen, un objeto no debe conocer la estructura interna de otros objetos y solo debe comunicarse con ellos a través de una interfaz limitada.
+
 - **Ejemplo:** Si tienes una clase "Persona" que tiene un método "getNombre()" y otra clase "Empresa" que tiene un método "getPersona()". En lugar de acceder directamente al nombre de la persona desde la clase Empresa, se debería llamar al método "getNombre()" de la clase Persona desde fuera de la clase Empresa, para evitar una dependencia innecesaria y mantener una comunicación limitada entre objetos.
 ### You Ain't Gonna Need It (YAGNI).
 ```
 " No lo vas a necesitar "
 ```
+
 - No agregue funcionalidad a su código hasta que realmente lo necesite.
 
 - **Ejemplo:** No agregue una función a su aplicación que permita a los usuarios cambiar el color de la fuente si no es parte de los requisitos principales.
@@ -68,5 +75,20 @@ Los principios SOLID no son reglas o leyes que deban seguirse estrictamente. Son
 
 - 🔗 [Qué son los principios SOLID ? Por qué son tan importantes y verás que ya los aplicas sin saberlo !!](https://www.youtube.com/watch?v=EbpM-i6GZjs)
 
+- 🔗 [Los Principios SOLID explicados ¡Con ejemplos! 100% PRÁCTICO](https://www.youtube.com/watch?v=lUPvI-Kv9UI)
+
+- 🔗 [Cómo implementar los principios SOLID en JAVA](https://www.youtube.com/watch?v=DHq0XvVhhY8)
+
+- 🔗 [Principios de programación SOLID (#Shorts)](https://www.youtube.com/playlist?list=PLTd5ehIj0goPxe8LLVhxZBiOygPk8Aqp8)
+
+- 🔗 [stefanhenneken.net, IEC 61131-3: The Principles KISS, DRY, LoD and YAGNI](https://stefanhenneken.net/2023/12/17/iec-61131-3-the-principles-kiss-dry-lod-and-yagni/)
+
+- 🔗 ["Clean" Code, Horrible Performance](https://www.youtube.com/watch?v=tD5NrevFtbU)
+
+- 🔗 [The SOLID Principles in C#](https://medium.com/@lucas.and227/the-solid-principles-in-c-319755838805)
+
+***
+### <span style="color:grey">Link al Video de Youtube 023:</span>
+- 🔗 [023 - OOP IEC 61131-3 PLC -- SOLID](https://youtu.be/biuO9x512Zs)
 
 

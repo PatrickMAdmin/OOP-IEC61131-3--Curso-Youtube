@@ -57,7 +57,28 @@ _16_Interface_vs_Herencia();
 _17_Otros_Operadores1();
 
 // Video de Youtube 18:
-_18_Otros_Operadores2();]]></ST>
+_18_Otros_Operadores2();
+
+// Video de Youtube 19:
+_19_ExST();
+
+// Video de Youtube 24
+_24_SOLID_SRP();
+
+// Video de Youtube 25
+_25_SOLID_OCP();
+
+// Video de Youtube 26
+_26_SOLID_LSP();
+
+// Video de Youtube 27
+_27_SOLID_ISP();
+
+// Video de Youtube 28
+_28_SOLID_DIP();
+
+// Video de Youtube 32
+_32_MAIN();]]></ST>
     </Implementation>
   </POU>
 </TcPlcObject>

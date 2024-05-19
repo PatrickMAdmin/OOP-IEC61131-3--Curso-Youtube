@@ -14,6 +14,12 @@ The variable type defines how and where you can use the variable. The variable t
     - Las variables de entrada son variables de entrada para un bloque de funciones.
     - VAR_INPUT variables se declaran en la parte de declaración de los objetos de programación entre las palabras clave VAR_INPUT y END_VAR.
     - Puede ampliar las variables de entrada con una palabra clave de atributo.
+    - En TwinCAT build 4026 existe la sobrecarga de las VAR_INPUT, en su declaración se podrán incializar las variables declaradas de esta forma al llamar al FB, FC, metodo, etc..., no es obligatorio incluirla en la llamada ya que tendrán el valor por defecto si no se llama en su modulo correspondiente.
+
+    ![TwinCAT_build_4026_overload_input1](../imagenes/OOP_Override_01.JPG)
+
+    ![TwinCAT_build_4026_overload_input2](../imagenes/OOP_Override_02.JPG)
+
 - [Output Variables - VAR_OUTPUT](https://infosys.beckhoff.com/content/1033/tc3_plc_intro/2528765835.html)
     - Las variables de salida son variables de salida de un bloque de funciones.
     - VAR_OUTPUT variables se declaran en la parte de declaración de los objetos de programación entre las palabras clave VAR_OUTPUT y END_VAR. TwinCAT devuelve los valores de estas variables al bloque de función de llamada. Allí puede consultar los valores y continuar usándolos.
@@ -94,7 +100,25 @@ El grado de retención de las variables RETAIN se incluye automáticamente en el
     - [RETAIN: for remanent variables of type RETAIN](https://infosys.beckhoff.com/content/1033/tc3_plc_intro/2528803467.html)
     - [PERSISTENT: for remanent variables of type PERSISTENT](https://infosys.beckhoff.com/content/1033/tc3_plc_intro/2528803467.html)
     - [CONSTANT: for constants](https://infosys.beckhoff.com/content/1033/tc3_plc_intro/2529284235.html#2529371275)
+    - [VAR_GENERIC CONSTANT](https://content.helpme-codesys.com/en/CODESYS%20Development%20System/_cds_vartypes_var_generic_constant.html#:~:text=A%20generic%20constant%20is%20a,function%20block%20instance%20is%20assigned.)
+    - En la versión de TwinCAT build 4026: podremos declarar VAR_GENERIC CONSTANT ver imagen adjunta:
+![TwinCAT_build_4026_var_generic_constant](../imagenes/TwinCAT_build_4026_var_generic_constant.JPG) 
+***
 
+- https://github.com/runtimevic/OOP-IEC61131-3--Curso-Youtube/issues/13
+### VAR_INST:
+
+VAR_INST inside of a method call is the same as putting the variable in a VAR in the Function Block. Method variables are destroyed at the end of a method call, where as Function Block variables are destroyed only when the Function Block is destroyed.
+
+I personally do not use VAR_INST when doing OOP programming, as I feel that VAR in the body of the function block is easier to read and understand.
+
+### VAR_STAT:
+
+- http://soup01.com/en/2022/02/19/beckhoffwhat-is-var_stat-and-how-to-use-it/
+
+Static variables. As we know, Function blocks (and Classes) instantiate and hold a collection of variable for themselves. As an example, we can have many TON function blocks which all run independent of each other as their variables are separate.
+
+If you declare a variable as VAR_STAT, you make it static. At that point, all function blocks of the same type will share this variable. If one of the instantiated function blocks writes to it, all of the other function blocks of the same type will see this change. Its a common variable among instances. So. VAR is local, only accessible by the function block. VAR_STAT is common across all instances of a function block.
 ***
 ### <span style="color:grey">Links:</span>
 - 🔗 [Local Variables - VAR, infosys.beckhoff.com/](https://infosys.beckhoff.com/english.php?content=../content/1033/tc3_plc_intro/2528755083.html&id=)

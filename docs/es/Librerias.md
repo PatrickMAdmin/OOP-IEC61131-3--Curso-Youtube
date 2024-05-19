@@ -58,7 +58,17 @@ En el mundo del desarrollo de software, este concepto de gestión de bibliotecas
     - From TC3.1 Build 4026: TcDocGen
 
         - 🔗 [TE1030 | TwinCAT 3 Documentation Generation -- TwinCAT 3.1.4026](https://www.beckhoff.com/en-en/products/automation/twincat/texxxx-twincat-3-engineering/te1030.html)
+***
+### <span style="color:grey">Librerias, Frameworks encontrados:</span>
+- <span style="color:grey">Beckhoff-USA-Community:</span>
+    - 🔗 [Beckhoff-USA-Community/SPT-Libraries](https://github.com/Beckhoff-USA-Community/SPT-Libraries)
+    - 🔗 [SPT Application Framework Documentation](https://beckhoff-usa-community.github.io/SPT-Libraries/index.html)
+    - 🔗 [Beckhoff#SPT Framework_Part1-en](http://soup01.com/en/2023/08/14/beckhoffspt-framework_part1-2/)
+    - 🔗 [Beckhoff#SPT Framework_Part1-ja](http://soup01.com/ja/2023/08/14/beckhoffspt-framework_part1/)
+    - 🔗 [Beckhoff.SPT Framework Tutorial Part1.EN](https://www.youtube.com/watch?v=oK4KR1jhLEg)   
+- <span style="color:grey">TcOpen:</span>
 
+***
 ### <span style="color:grey">¿Donde encontrar las librerias creadas de este Curso de OOP?</span>
 - 📚 👉 [Proyecto Librerias creadas](https://github.com/runtimevic/OOP-IEC61131-3--Curso-Youtube/tree/master/Library)
 ***
@@ -69,9 +79,6 @@ En el mundo del desarrollo de software, este concepto de gestión de bibliotecas
 - 🔗 [help.codesys.com,_tm_test_action_libraries_addlibrary](https://help.codesys.com/webapp/_tm_test_action_libraries_addlibrary;product=codesys_test_manager;version=4.3.1.0)
 - 🔗 [CODESYS Webinar Library Management Basics](https://www.youtube.com/watch?v=A4lQGWAUTgs)
 - 🔗 [CoDeSys - How to add libraries and more with Machine Control Studio.](https://www.youtube.com/watch?v=8OGPvyo99p8&t=351s)
-- 🔗 [SPT Application Framework Documentation](https://beckhoff-usa-community.github.io/SPT-Libraries/index.html)
-- 🔗 [Beckhoff.SPT Framework Tutorial Part1.EN](https://www.youtube.com/watch?v=oK4KR1jhLEg)
-
 - 🔗 [Tutorial #17: Eigene CoDeSys Bibliotheken erstellen](https://www.youtube.com/watch?v=vxOG8gydUwU)
 
 - 🔗 [CoDeSys Library Management & Creation](https://www.youtube.com/watch?v=zjzT96DIIKQ)

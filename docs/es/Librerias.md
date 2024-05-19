@@ -63,10 +63,15 @@ En el mundo del desarrollo de software, este concepto de gestión de bibliotecas
 - <span style="color:grey">Beckhoff-USA-Community:</span>
     - 🔗 [Beckhoff-USA-Community/SPT-Libraries](https://github.com/Beckhoff-USA-Community/SPT-Libraries)
     - 🔗 [SPT Application Framework Documentation](https://beckhoff-usa-community.github.io/SPT-Libraries/index.html)
+    - 🔗 [Automation how-to videos -- Beckhoff Automation USA](https://www.youtube.com/playlist?list=PLSUMeALpvl4f2sjchk6rY5GgsaiDFK9uD)
     - 🔗 [Beckhoff#SPT Framework_Part1-en](http://soup01.com/en/2023/08/14/beckhoffspt-framework_part1-2/)
     - 🔗 [Beckhoff#SPT Framework_Part1-ja](http://soup01.com/ja/2023/08/14/beckhoffspt-framework_part1/)
     - 🔗 [Beckhoff.SPT Framework Tutorial Part1.EN](https://www.youtube.com/watch?v=oK4KR1jhLEg)   
 - <span style="color:grey">TcOpen:</span>
+    - 🔗 [TcOpenGroup](https://github.com/TcOpenGroup/TcOpen)
+    - 🔗 [TcOpen - Inxton](https://www.youtube.com/playlist?list=PL-0IxLiTmB6IMKKtGn5bDb9e35CSZZaB7)
+    - 🔗 [Beckhoff#Let’s try Open Source Library TcOpen in TwinCAT3!](http://soup01.com/en/2023/04/24/beckhofflets-try-open-source-library-tcopen-in-twincat3/)
+    - 🔗 [Beckhoff#TwinCAT3 TcOpen 使ってみました](http://soup01.com/ja/2023/04/17/post-5632/)
 
 ***
 ### <span style="color:grey">¿Donde encontrar las librerias creadas de este Curso de OOP?</span>

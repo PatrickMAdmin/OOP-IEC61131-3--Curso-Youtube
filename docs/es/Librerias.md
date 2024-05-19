@@ -58,8 +58,11 @@ En el mundo del desarrollo de software, este concepto de gestión de bibliotecas
     - From TC3.1 Build 4026: TcDocGen
 
         - 🔗 [TE1030 | TwinCAT 3 Documentation Generation -- TwinCAT 3.1.4026](https://www.beckhoff.com/en-en/products/automation/twincat/texxxx-twincat-3-engineering/te1030.html)
+        
 ***
+
 ### <span style="color:grey">Librerias, Frameworks encontrados:</span>
+
 - <span style="color:grey">Beckhoff-USA-Community:</span>
     - 🔗 [Beckhoff-USA-Community/SPT-Libraries](https://github.com/Beckhoff-USA-Community/SPT-Libraries)
     - 🔗 [SPT Application Framework Documentation](https://beckhoff-usa-community.github.io/SPT-Libraries/index.html)
